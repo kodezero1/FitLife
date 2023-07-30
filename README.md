@@ -8,13 +8,13 @@ To install LiftClub on your mobile device, follow these steps based on your oper
 
 ### iOS
 
-1. Open Safari and navigate to [liftclub.app](https://liftclub.app).
+1. Open Safari and navigate to [liftclub.app]([https://liftclub.app](https://fit-life-project.vercel.app/)).
 2. Tap the "Share" button at the bottom of the browser.
 3. In the pop-up menu, select "Add to Home Screen" and then click "Add" to confirm.
 
 ### Android
 
-1. Open your browser and go to [liftclub.app](https://liftclub.app).
+1. Open your browser and go to [liftclub.app]([https://liftclub.app](https://fit-life-project.vercel.app/)).
 2. Depending on your browser:
    - Brave/DuckDuckGo: Tap the three vertical dots in the bottom right or upper right corner, then select "Add to Home Screen" and click "Add."
    - Google Chrome: Tap the three vertical dots in the upper right corner, select "Add to Home Screen," and click "Add."
@@ -86,4 +86,4 @@ The Profile Page displays and allows you to edit your account information. You c
 
 ## Project Repository
 
-The LiftClub project is hosted on GitHub. You can find the repository at [https://github.com/ChristianAnagnostou/liftclub](https://github.com/ChristianAnagnostou/liftclub).
+The LiftClub project is hosted on GitHub. You can find the repository at [https://github.com/kodezero1/fitlife](https://github.com/kodezero1/fitlife).
