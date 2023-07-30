@@ -1,27 +1,27 @@
-# LiftClub
+# FitLife
 
-LiftClub is a Progressive Web Application (PWA) that helps users track and record their workouts. It provides features for creating and managing workouts, routines, teams, and exercises. Users can log their daily workouts, explore new content, and track their progress over time.
+Fitlife is a Progressive Web Application (PWA) that helps users track and record their workouts. It provides features for creating and managing workouts, routines, teams, and exercises. Users can log their daily workouts, explore new content, and track their progress over time.
 
 ## Installation
 
-To install LiftClub on your mobile device, follow these steps based on your operating system:
+To install Fitlife on your mobile device, follow these steps based on your operating system:
 
 ### iOS
 
-1. Open Safari and navigate to [liftclub.app]([https://liftclub.app](https://fit-life-project.vercel.app/)).
+1. Open Safari and navigate to [Fitlife.app]((https://fit-life-project.vercel.app/)).
 2. Tap the "Share" button at the bottom of the browser.
 3. In the pop-up menu, select "Add to Home Screen" and then click "Add" to confirm.
 
 ### Android
 
-1. Open your browser and go to [liftclub.app]([https://liftclub.app](https://fit-life-project.vercel.app/)).
+1. Open your browser and go to [Fitlife.app]([https://Fitlife.app](https://fit-life-project.vercel.app/)).
 2. Depending on your browser:
    - Brave/DuckDuckGo: Tap the three vertical dots in the bottom right or upper right corner, then select "Add to Home Screen" and click "Add."
    - Google Chrome: Tap the three vertical dots in the upper right corner, select "Add to Home Screen," and click "Add."
 
 ## Account Creation and Login
 
-To use LiftClub, you need to create an account. Follow these steps:
+To use Fitlife, you need to create an account. Follow these steps:
 
 1. If you are on the Login page, click the "Create an account here" button.
 2. Enter a username (no special characters, only letters and numbers, including uppercase).
@@ -36,7 +36,7 @@ To log in to your account:
 
 ### Log Page
 
-The Log page is the main interface of LiftClub where you can select and record your workouts.
+The Log page is the main interface of Fitlife where you can select and record your workouts.
 
 #### Date Bar
 
@@ -78,7 +78,7 @@ The Team Tab enables you to create teams, assign routines to them, and manage te
 
 ### Find Page
 
-The Find Page helps you discover new content within LiftClub. You can search for workouts, exercises, users, and teams. The search results can be sorted by recency, popularity, or alphabetically.
+The Find Page helps you discover new content within Fitlife. You can search for workouts, exercises, users, and teams. The search results can be sorted by recency, popularity, or alphabetically.
 
 ### Profile Page
 
@@ -86,4 +86,4 @@ The Profile Page displays and allows you to edit your account information. You c
 
 ## Project Repository
 
-The LiftClub project is hosted on GitHub. You can find the repository at [https://github.com/kodezero1/fitlife](https://github.com/kodezero1/fitlife).
+The Fitlife project is hosted on GitHub. You can find the repository at [https://github.com/kodezero1/fitlife](https://github.com/kodezero1/fitlife).
