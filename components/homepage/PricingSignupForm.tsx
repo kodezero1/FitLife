@@ -102,9 +102,9 @@ const PricingSignupForm: React.FC<Props> = () => {
               onClick={() => setAccCreds((prev) => ({ ...prev, membershipPlan: 'year' }))}
             >
               $10 / year
-            </button>
+            </button>*/}
           </div>
-        </div>*/}
+        </div>
 
         {errorMessage && <p className="error-msg">{errorMessage}</p>}
 
