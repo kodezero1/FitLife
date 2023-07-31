@@ -80,7 +80,7 @@ const PricingSignupForm: React.FC<Props> = () => {
           />
         </div>
 
-       {/*  <div className="membership-section">
+         <div className="membership-section">
           <div className="membership-toggle-container">
             <button
               type="button"
@@ -89,7 +89,7 @@ const PricingSignupForm: React.FC<Props> = () => {
             >
               Free
             </button>
-            <button
+         {/*   <button
               type="button"
               className="month"
               onClick={() => setAccCreds((prev) => ({ ...prev, membershipPlan: 'month' }))}
@@ -104,13 +104,13 @@ const PricingSignupForm: React.FC<Props> = () => {
               $10 / year
             </button>
           </div>
-        </div>
+        </div>*/}
 
         {errorMessage && <p className="error-msg">{errorMessage}</p>}
 
         <button type="submit" disabled={!Boolean(accCreds.email && accCreds.membershipPlan)}>
           Sign Up
-        </button>*/}
+        </button>
       </form>
 
       <div className="other-links">
