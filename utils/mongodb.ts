@@ -2,9 +2,6 @@ import { MongoClient } from 'mongodb'
 // import * as dotenv from 'dotenv';
 // dotenv.config();
 
-
-// let uri = "mongodb+srv://samadeol03:imawesome5@cluster1.v23lano.mongodb.net/?retryWrites=true&w=majority"
-// let dbName = "FitLifedb"
 let uri =  process.env.NEXT_PUBLIC_MONGODB_URI!
 let dbName = process.env.NEXT_PUBLIC_MONGODB_DB!
 
