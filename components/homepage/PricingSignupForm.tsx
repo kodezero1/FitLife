@@ -80,7 +80,7 @@ const PricingSignupForm: React.FC<Props> = () => {
           />
         </div>
 
-        <div className="membership-section">
+       {/*  <div className="membership-section">
           <div className="membership-toggle-container">
             <button
               type="button"
@@ -110,7 +110,7 @@ const PricingSignupForm: React.FC<Props> = () => {
 
         <button type="submit" disabled={!Boolean(accCreds.email && accCreds.membershipPlan)}>
           Sign Up
-        </button>
+        </button>*/}
       </form>
 
       <div className="other-links">
