@@ -4,9 +4,9 @@ import React from "react";
 import styled from "styled-components";
 
 const links = [
-  { title: "Articles", route: "/articles" },
+//  { title: "Articles", route: "/articles" },
   { title: "Guide", route: "/article/lift-club-guide" },
-  { title: "Membership", route: "/membership" },
+//  { title: "Membership", route: "/membership" },
   // { title: "Art", route: "/art" },
 ];
 
