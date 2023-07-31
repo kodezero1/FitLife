@@ -125,6 +125,7 @@ export default PricingSignupForm
 
 const CreateContainer = styled(LoginContainer)<{ plan: User['subscription']['plan'] }>`
   .membership-section {
+  display: none;
     margin-bottom: 1rem;
 
     .membership-toggle-container {
