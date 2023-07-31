@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 import getStripe from '../../utils/get-stripejs'
 import { LoginContainer } from './LoginForm'
-import DemoLoginButton from './DemoLoginButton'
+//import DemoLoginButton from './DemoLoginButton'
 import { User } from '../../types'
 import { initializeFreeAccount } from '../../store'
 import CreateAccForm from './CreateAccForm'
@@ -116,7 +116,7 @@ const PricingSignupForm: React.FC<Props> = () => {
       <div className="other-links">
         <Link href="/login">Have an account? Login here</Link>
         <hr />
-        <DemoLoginButton />
+{/*         <DemoLoginButton /> */}
       </div>
     </CreateContainer>
   )
