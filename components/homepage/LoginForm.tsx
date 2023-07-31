@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 import { useUserDispatch, authLogin } from '../../store'
 import { StripePortalURL } from '../../utils/envs'
-import DemoLoginButton from './DemoLoginButton'
+// import DemoLoginButton from './DemoLoginButton'
 
 interface Props {}
 
@@ -117,7 +117,7 @@ const Login: React.FC<Props> = () => {
       <div className="other-links">
         <Link href="/signup">Don't have an account? Sign Up</Link>
         <hr />
-        <DemoLoginButton setLoading={setLoadingLogin} />
+        {/* <DemoLoginButton setLoading={setLoadingLogin} /> */}
       </div>
     </LoginContainer>
   )
