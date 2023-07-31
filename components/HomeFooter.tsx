@@ -21,7 +21,7 @@ const HomeFooter = (props: Props) => {
             </button>
           </div>
 
-          <div className="socials">
+{/*           <div className="socials">
             <a href="https://discord.gg/a35vPjCG5r" target="_blank">
               <svg
                 stroke="currentColor"
@@ -39,7 +39,7 @@ const HomeFooter = (props: Props) => {
             </a>
 
             <Link href="/privacy">Privacy</Link>
-          </div>
+          </div> */}
         </div>
       </Footer>
     </>
