@@ -17,7 +17,7 @@ const HomeFooter = (props: Props) => {
           <div className="title">
             <button onClick={scrollToTop} className="logo-container">
               <Image src="/favicon.png" alt="Lift Club Logo" width={25} height={25} />
-              <span>Lift Club</span>
+              <span>FitLife</span>
             </button>
           </div>
 
