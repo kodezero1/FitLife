@@ -29,7 +29,7 @@ interface Props {
   title?: string
 }
 
-const Layout: React.FC<Props> = ({ title = 'Lift Club', children }) => {
+const Layout: React.FC<Props> = ({ title = 'FitLife', children }) => {
   const router = useRouter()
   const dispatch = useUserDispatch()
   const { user, platform, isUsingPWA, isSignedIn } = useUserState()
