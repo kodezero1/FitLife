@@ -1,31 +1,31 @@
 ---
-title: "Lift Club Guide"
-dateCreated: "December 4, 2021"
-lastUpdated: "December 4, 2021"
-authorUsername: "George"
+title: "FitLife Guide"
+dateCreated: "July 28, 2023"
+lastUpdated: "July 30, 2023"
+authorUsername: "Oluwatomi"
 coverImg: "lift-club-guide/liftclub-main.webp"
 readTime: "5 min"
-summary: "The ultimate Lift Club guide. Every detail about lift club and ways to optimize your experience using it."
+summary: "The ultimate FitLife guide. Every detail about lift club and ways to optimize your experience using it."
 categories: "Guides"
 ---
 
 # Welcome!
 
-Welcome to the Lift Club...
+Welcome to the FitLife...
 
 # Installation
 
-LiftClub is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
+FitLofe is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
 
 ## iOS
 
-1. On Safari, navigate to [liftclub.app](https://liftclub.app)
+1. On Safari, navigate to [Fit-Life-project.vercel.app](https://Fit-Life-project.vercel.app)
 2. Click the "Share" button (box with up arrow at the bottom of the browser).
 3. In the opening pop-up, click "Add to Home Screen." Then, click "Add" in the upper right.
 
 ## Android
 
-1. Navigate to [liftclub.app](https://liftclub.app)
+1. Navigate to [Fit-Life-vercel.app](https://Fit-Life-vercel.app)
 
 ### Brave / DuckDuckGo
 
@@ -51,7 +51,7 @@ LiftClub is a PWA, so installing it on your phone will allow you to use it as if
 1. Enter your Username and Password into their respective fields.
 2. Click the "Login" button.
 
-# Using LiftClub
+# Using FitLife
 
 ## Log Page
 
@@ -117,7 +117,7 @@ You may also notice your previously created workouts listed at the bottom of the
 
 ### Routine Tab
 
-The routine tab works much like the Workout Tab, but with a different focus. In LiftClub's terminology, a workout is comprised of exercises, and a routine is comprised of workouts. A routine is a set of workouts over a period of days, weeks, or months. The routine Builder will allow you to schedule your workouts so they will automatically appear in your [Quick Notifications](#quick-start).
+The routine tab works much like the Workout Tab, but with a different focus. In FitLife's terminology, a workout is comprised of exercises, and a routine is comprised of workouts. A routine is a set of workouts over a period of days, weeks, or months. The routine Builder will allow you to schedule your workouts so they will automatically appear in your [Quick Notifications](#quick-start).
 
 At the top, include a name for your Routine. The two buttons below allow you to save your routine, or clear it and start from scratch.
 
