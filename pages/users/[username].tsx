@@ -60,7 +60,7 @@ const Username: React.FC = () => {
     <Container>
       {!isLoading && profile && user ? (
         <>
-          <SeoHead title={`${profile.username} - Lift Club`} />
+          <SeoHead title={`${profile.username} - FitLife`} />
 
           <NameTile profile={profile} isProfileOwner={isProfileOwner} />
 
