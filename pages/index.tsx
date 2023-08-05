@@ -153,7 +153,7 @@ const Home: NextPage = () => {
 
             <Buttons>
               <Link href="/signup?plan=y">Join the Club</Link>
-              <Link href="/article/lift-club-guide">User Guide</Link>
+              <Link href="/article/fit-life-guide">User Guide</Link>
             </Buttons>
           </HomepageText>
 
