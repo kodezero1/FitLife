@@ -77,7 +77,7 @@ const Username: React.FC = () => {
                 listTitle={'Created Workouts'}
               />
             )} */}
-
+            <WeightTile/>
             <WorkoutTileList workouts={recentWorkouts} listTitle={'Recent Workouts'} />
           </div>
         </>
@@ -86,7 +86,7 @@ const Username: React.FC = () => {
           <LoadingBricks />
         </div>
       )}
-      <WeightTile/>
+      
     </Container>
   )
 }
