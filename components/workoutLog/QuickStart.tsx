@@ -67,7 +67,7 @@ const QuickStart: React.FC<Props> = ({
 
       <OnTheFly onClick={displayOnTheFlyWorkout} className="button-press" type="button">
         <h3>
-          <LightningBolt /> On the Fly
+          <LightningBolt /> Start Workout
         </h3>
         <p>Start with a blank workout and track your exercises as you go.</p>
       </OnTheFly>
