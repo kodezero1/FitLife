@@ -7,7 +7,7 @@ const AddExerciseBtn = ({ onClick }: Props) => {
   return (
     <BtnStyles onClick={onClick} type="button">
       <p>
-        Add Exercise <span>＋</span>
+        Create Exercise <span>＋</span>
       </p>
     </BtnStyles>
   );
