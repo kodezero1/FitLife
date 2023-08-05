@@ -74,7 +74,7 @@ const ListControls = ({
             </button>
           ))}
           <button className="add-exercise-button" onClick={() => setShowCreateExerciseModal(true)}>
-            Add Exercise
+            Create Exercise
           </button>
         </div>
       </Filters>
