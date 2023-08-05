@@ -2,7 +2,7 @@
 title: "FitLife Guide"
 dateCreated: "July 28, 2023"
 lastUpdated: "July 30, 2023"
-authorUsername: "George"
+authorUsername: "Oluwatomi"
 coverImg: "fit-life-guide/liftclub-main.webp"
 readTime: "5 min"
 summary: "The ultimate FitLife guide. Every detail about lift club and ways to optimize your experience using it."
@@ -15,11 +15,11 @@ Welcome to the FitLife...
 
 # Installation
 
-FitLofe is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
+FitLife is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
 
 ## iOS
 
-1. On Safari, navigate to [Fit-Life-project.vercel.app](https://Fit-Life-project.vercel.app)
+1. On Safari, navigate to [Fit-Life-project.vercel.app](https://fit-life-project.vercel.app)
 2. Click the "Share" button (box with up arrow at the bottom of the browser).
 3. In the opening pop-up, click "Add to Home Screen." Then, click "Add" in the upper right.
 
