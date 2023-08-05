@@ -12,7 +12,7 @@ import RightArrow from '../../svg/RightArrow'
 
 import LogSettings from './LogSettings'
 import BodyDiagram from './BodyDiagram'
-import ReportBugBtn from './ReportBugBtn'
+// import ReportBugBtn from './ReportBugBtn'
 
 type Props = {
   selectedDate: string
@@ -75,7 +75,7 @@ const LogNav = ({
 
       <LogGuide logGuide={logGuide} />
 
-      <ReportBugBtn />
+{/*       <ReportBugBtn /> */}
 
       <div className="spacer" />
 
