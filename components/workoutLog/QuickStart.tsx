@@ -3,7 +3,7 @@ import styled from 'styled-components'
 // Interfaces
 import { Workout, WorkoutLogItem } from '../../types'
 // SVG
-import ClipboardPaste from '../svg/ClipboardPaste'
+// import ClipboardPaste from '../svg/ClipboardPaste'
 import LightningBolt from '../svg/LightningBolt'
 // Components
 import TextInput from '../Shared/TextInput'
@@ -59,10 +59,10 @@ const QuickStart: React.FC<Props> = ({
       <header>
         <h1 className="title">Quick Start</h1>
 
-        <button type="button" onClick={handlePasteWorkout}>
+{/*         <button type="button" onClick={handlePasteWorkout}>
           <ClipboardPaste />
           {showCopyErr && <span>No Workout Copied</span>}
-        </button>
+        </button> */}
       </header>
 
       <OnTheFly onClick={displayOnTheFlyWorkout} className="button-press" type="button">
