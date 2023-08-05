@@ -238,7 +238,7 @@ export const getRecentUserWorkouts = (user?: User) => {
           ? false
           : seenNames.set(user.workoutLog[w.date].workoutName, true)) &&
         w.workoutName &&
-        w.workoutName.toLowerCase() !== 'on the fly'
+        w.workoutName.toLowerCase() !== 'Start Workout'
     )
 }
 
@@ -246,10 +246,10 @@ export const initWorkoutLogItem = (): WorkoutLogItem => ({
   completed: false,
   exerciseData: [],
   workoutNote: '',
-  workoutName: 'On the Fly',
+  workoutName: 'Start Workout',
 })
 
-// const ok = "on the fly|id:1=w/12-10-10,id:2=w/12-10-10";
+// const ok = "Start Workout|id:1=w/12-10-10,id:2=w/12-10-10";
 export const compressWorkout = (logItem: WorkoutLogItem) => {
   const { exerciseData, workoutName } = logItem
   let res = `${workoutName}|`
