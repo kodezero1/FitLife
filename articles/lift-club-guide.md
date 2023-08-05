@@ -15,17 +15,17 @@ Welcome to the Lift Club...
 
 # Installation
 
-FitLife is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
+LiftClub is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
 
 ## iOS
 
-1. On Safari, navigate to [fit-life-project.vercel.app](https://fit-life-project.vercel.app/)
+1. On Safari, navigate to [liftclub.app](https://liftclub.app)
 2. Click the "Share" button (box with up arrow at the bottom of the browser).
 3. In the opening pop-up, click "Add to Home Screen." Then, click "Add" in the upper right.
 
 ## Android
 
-1. Navigate to [fit-life-project.vercel.app](https://fit-life-project.vercel.app/)
+1. Navigate to [liftclub.app](https://liftclub.app)
 
 ### Brave / DuckDuckGo
 
@@ -51,7 +51,7 @@ FitLife is a PWA, so installing it on your phone will allow you to use it as if 
 1. Enter your Username and Password into their respective fields.
 2. Click the "Login" button.
 
-# Using FitLife
+# Using LiftClub
 
 ## Log Page
 
@@ -117,7 +117,7 @@ You may also notice your previously created workouts listed at the bottom of the
 
 ### Routine Tab
 
-The routine tab works much like the Workout Tab, but with a different focus. In FitLife's terminology, a workout is comprised of exercises, and a routine is comprised of workouts. A routine is a set of workouts over a period of days, weeks, or months. The routine Builder will allow you to schedule your workouts so they will automatically appear in your [Quick Notifications](#quick-start).
+The routine tab works much like the Workout Tab, but with a different focus. In LiftClub's terminology, a workout is comprised of exercises, and a routine is comprised of workouts. A routine is a set of workouts over a period of days, weeks, or months. The routine Builder will allow you to schedule your workouts so they will automatically appear in your [Quick Notifications](#quick-start).
 
 At the top, include a name for your Routine. The two buttons below allow you to save your routine, or clear it and start from scratch.
 
