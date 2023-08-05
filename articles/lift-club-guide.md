@@ -1,8 +1,8 @@
 ---
-title: "Lift Club Guide"
-dateCreated: "December 4, 2021"
-lastUpdated: "December 4, 2021"
-authorUsername: "George"
+title: "FitLife Guide"
+dateCreated: "July 30, 2023"
+lastUpdated: "July 30, 2023"
+authorUsername: "Olatomi"
 coverImg: "lift-club-guide/liftclub-main.webp"
 readTime: "5 min"
 summary: "The ultimate Lift Club guide. Every detail about lift club and ways to optimize your experience using it."
@@ -11,7 +11,7 @@ categories: "Guides"
 
 # Welcome!
 
-Welcome to the Lift Club...
+Welcome to the FitLife...
 
 # Installation
 
@@ -65,13 +65,13 @@ If no workout was recorded, that day will be colored grey. If a workout was reco
 
 ### Quick Start: Log Page with No Recorded Workout
 
-If you have not recorded a workout for the day selected, you will see the Quick Start, where a variety of options are presented. At the top is the On the Fly workout, with the Team workout(s) below. These will be explored in more detail in the [On the Fly](#on-the-fly) and [Teams](#teams) pages.
+If you have not recorded a workout for the day selected, you will see the Quick Start, where a variety of options are presented. At the top is the Start Workout workout, with the Team workout(s) below. These will be explored in more detail in the [Quick Start](#on-the-fly).
 
 Below that are the "My Workouts" and "Saved Workouts" sections. These sections contain all of the pre-made workouts that you have created or saved, respectively.
 
 To start recording your workout for the day, click on anyone of the discussed workout buttons:
 
-- On the Fly
+- Start Workout
 - Team
 - My Workouts
 - Saved Workouts
@@ -87,9 +87,9 @@ The Recording Page, below the Date Bar, will show the title of the workout, foll
 - the reps for each set of the exercise, which are adjustable
 - the weights for each set of the exercise, which are adjustable
 
-### On the Fly
+### Start Workout
 
-Workouts are normally built on the Builder Page, but On the Fly is useful for creating spontaneous workouts. After clicking on it, you will be taken to a blank Recording Page. Here, you can add exercises as you like. Adding exercises On the Fly works almost exactly as the Builder Page, but these workouts will not be saved as a template in "My Workouts."
+Workouts are normally built on the Builder Page, but Start Workout is useful for creating spontaneous workouts. After clicking on it, you will be taken to a blank Recording Page. Here, you can add exercises as you like. Adding exercises Start Workout works almost exactly as the Builder Page, but these workouts will not be saved as a template in "My Workouts."
 
 ## Builder Page
 
