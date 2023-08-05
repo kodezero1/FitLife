@@ -91,7 +91,7 @@ const CalendarDay: React.FC<Props> = ({
 
       {showWorkoutTags && dayIsSelected && dayData && (
         <Tag>
-          <p>{dayData.workoutName || dayData.workout?.name || "On the fly"}</p>
+          <p>{dayData.workoutName || dayData.workout?.name || "Start Workout"}</p>
           <span />
         </Tag>
       )}
