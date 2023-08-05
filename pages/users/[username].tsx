@@ -14,6 +14,7 @@ import WorkoutTileList from '../../components/userProfile/WorkoutTileList'
 import LoadingBricks from '../../components/Shared/LoadingBricks'
 import { getSortedWorkoutLogDateArray } from '../../utils'
 import { User, Workout } from '../../types'
+import WeightTile from "../../components/settingsPage/WeightTile"
 
 const Username: React.FC = () => {
   const router = useRouter()
@@ -85,6 +86,7 @@ const Username: React.FC = () => {
           <LoadingBricks />
         </div>
       )}
+      <WeightTile/>
     </Container>
   )
 }
