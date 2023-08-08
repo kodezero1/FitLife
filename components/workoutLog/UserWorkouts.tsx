@@ -37,7 +37,7 @@ const UserWorkouts: React.FC<Props> = ({
         />
       </WorkoutsList>
 
-      <WorkoutsList>
+      {/* <WorkoutsList>
         <TiledList
           searchTerm={searchTerm}
           showExpand={true}
@@ -53,7 +53,7 @@ const UserWorkouts: React.FC<Props> = ({
             (workout: Workout) => workout.muscleGroups.map(([groupName]) => groupName),
           ]}
         />
-      </WorkoutsList>
+      </WorkoutsList> */}
 
       <WorkoutsList>
         <TiledList
