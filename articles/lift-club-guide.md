@@ -15,17 +15,29 @@ Welcome to the FitLife...
 
 # Installation
 
+<<<<<<< HEAD
 FitLofe is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
 
 ## iOS
 
 1. On Safari, navigate to [Fit-Life-project.vercel.app](https://Fit-Life-project.vercel.app)
+=======
+FitLife is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
+
+## iOS
+
+1. On Safari, navigate to [fit-life-project.vercel.app](https://fit-life-project.vercel.app/)
+>>>>>>> parent of 98e6de3 (Reverted to previous article)
 2. Click the "Share" button (box with up arrow at the bottom of the browser).
 3. In the opening pop-up, click "Add to Home Screen." Then, click "Add" in the upper right.
 
 ## Android
 
+<<<<<<< HEAD
 1. Navigate to [Fit-Life-vercel.app](https://Fit-Life-vercel.app)
+=======
+1. Navigate to [fit-life-project.vercel.app](https://fit-life-project.vercel.app/)
+>>>>>>> parent of 98e6de3 (Reverted to previous article)
 
 ### Brave / DuckDuckGo
 
