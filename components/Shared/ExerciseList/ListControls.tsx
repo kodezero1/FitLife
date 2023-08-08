@@ -7,7 +7,7 @@ import TextInput from '../TextInput'
 
 import Weight from '../../svg/Weight'
 import Timer from '../../svg/Timer'
-import Distance from '../../svg/Distance'
+// import Distance from '../../svg/Distance'
 import { ListOptionsType } from './ExerciseList'
 
 type Props = {
@@ -24,7 +24,7 @@ type Props = {
 const ExerciseMetrics: { metric: Exercise['metric']; icon: JSX.Element }[] = [
   { metric: 'weight', icon: <Weight /> },
   { metric: 'time', icon: <Timer /> },
-  { metric: 'distance', icon: <Distance /> },
+  // { metric: 'distance', icon: <Distance /> },
 ]
 
 const ListControls = ({
