@@ -87,22 +87,22 @@ const NameTile: React.FC<Props> = ({ profile, isProfileOwner }) => {
       </div>
 
       <div className="bottom">
-        <button className="box" onClick={() => handleProfileFollowsClick("followers")}>
+        {/* <button className="box" onClick={() => handleProfileFollowsClick("followers")}>
           <span className="small-text">
             {profile.followers?.length === 1 ? "Follower" : "Followers"}
           </span>
           <span className="stat">{profile.followers?.length || 0}</span>
-        </button>
+        </button> */}
 
         <p className="box">
           <span className="small-text">Workouts</span>
           <span className="stat large-text">{Object.keys(profile.workoutLog).length}</span>
         </p>
 
-        <button className="box" onClick={() => handleProfileFollowsClick("following")}>
+        {/* <button className="box" onClick={() => handleProfileFollowsClick("following")}>
           <span className="small-text">Following</span>
           <span className="stat">{profile.following?.length || 0}</span>
-        </button>
+        </button> */}
 
         {/* <p className="box">
           <span className="small-text">Last Seen</span>{" "}
