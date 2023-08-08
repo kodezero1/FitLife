@@ -57,7 +57,7 @@ const QuickStart: React.FC<Props> = ({
   return (
     <Container>
       <header>
-        <h1 className="title">Quick Start</h1>
+        <h1 className="title">Daily Workouts</h1>
 
 {/*         <button type="button" onClick={handlePasteWorkout}>
           <ClipboardPaste />
