@@ -78,6 +78,10 @@ const Username: React.FC = () => {
               />
             )} */}
             <WeightTile/>
+            <p className="box">
+          <span className="small-text">Workouts </span>
+          <span className="stat large-text">{Object.keys(profile.workoutLog).length}</span>
+        </p>
             <WorkoutTileList workouts={recentWorkouts} listTitle={'Recent Workouts'} />
           </div>
         </>
