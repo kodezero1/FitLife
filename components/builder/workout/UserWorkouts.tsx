@@ -54,7 +54,7 @@ const UserWorkouts: React.FC<Props> = ({ setCustomWorkout, customWorkout, clearC
           isLoading={(workout) => workout._id === loadingWorkoutId}
         />
 
-        <TiledList
+        {/* <TiledList
           showExpand={true}
           title="Saved"
           listName="saved-workouts"
@@ -64,7 +64,7 @@ const UserWorkouts: React.FC<Props> = ({ setCustomWorkout, customWorkout, clearC
           isHighlighted={(workout) => customWorkout._id === workout._id}
           keyProp="_id"
           isLoading={(workout) => workout._id === loadingWorkoutId}
-        />
+        /> */}
       </div>
 
       {workoutToDelete && (
