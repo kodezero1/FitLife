@@ -18,7 +18,7 @@ const AppNav: React.FC = () => {
   const routes = [
     { pathname: "/log", icon: <Notebook />, title: "Log" },
     { pathname: "/builder", icon: <Builder />, title: "Build" },
-    { pathname: "/finder", icon: <Search />, title: "Find" },
+    // { pathname: "/finder", icon: <Search />, title: "Find" },
     { pathname: `/users/${user!.username}`, icon: <Profile />, title: "Profile" },
   ];
 
