@@ -10,7 +10,7 @@ import { Exercise, WorkoutLogItem } from '../../../types'
 import LeftArrow from '../../svg/LeftArrow'
 import RightArrow from '../../svg/RightArrow'
 
-import LogSettings from './LogSettings'
+// import LogSettings from './LogSettings'
 import BodyDiagram from './BodyDiagram'
 // import ReportBugBtn from './ReportBugBtn'
 
@@ -79,13 +79,13 @@ const LogNav = ({
 
       <div className="spacer" />
 
-      <LogSettings
+      {/* <LogSettings
         currentWorkoutLogItem={currentWorkoutLogItem}
         resetAllSets={resetAllSets}
         resetAllWeights={resetAllWeights}
         deleteWorkout={deleteWorkout}
         saveWorkout={saveWorkout}
-      />
+      /> */}
 
       <BodyDiagram selectedMuscleGroups={muscleGroups} />
 
