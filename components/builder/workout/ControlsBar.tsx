@@ -96,7 +96,7 @@ const ControlsBar: React.FC<Props> = ({ customWorkout, setCustomWorkout, clearCu
         <label htmlFor="workoutName">Workout Name</label>
         <input type="text" name="workoutName" value={customWorkout.name} onChange={handleWorkoutNameChange} />
 
-        <button
+        {/* <button
           className={`public-checkbox ${!user?.isAdmin && 'disabled'}`}
           onClick={user?.isAdmin ? handlePrivacyChange : () => {}}
           disabled={!user?.isAdmin}
@@ -113,7 +113,7 @@ const ControlsBar: React.FC<Props> = ({ customWorkout, setCustomWorkout, clearCu
           ) : (
             <Lock />
           )}
-        </button>
+        </button> */}
       </div>
 
       <BuilderControlButtons>
