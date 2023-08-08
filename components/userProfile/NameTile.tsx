@@ -94,10 +94,10 @@ const NameTile: React.FC<Props> = ({ profile, isProfileOwner }) => {
           <span className="stat">{profile.followers?.length || 0}</span>
         </button> */}
 
-        <p className="box">
+        {/* <p className="box">
           <span className="small-text">Workouts</span>
           <span className="stat large-text">{Object.keys(profile.workoutLog).length}</span>
-        </p>
+        </p> */}
 
         {/* <button className="box" onClick={() => handleProfileFollowsClick("following")}>
           <span className="small-text">Following</span>
@@ -169,7 +169,7 @@ const TileContainer = styled.section`
         min-width: max-content;
       }
     }
-  }
+  } 
 
   .bottom {
     display: grid;
