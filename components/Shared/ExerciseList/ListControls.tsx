@@ -44,7 +44,7 @@ const ListControls = ({
 
   return (
     <div className="exercise-list-controls">
-      <ListOptionsContainer
+      {/* <ListOptionsContainer
         xPos={(100 / ListOptions.length) * ListOptions.indexOf(shownList)}
         width={100 / ListOptions.length}
       >
@@ -53,7 +53,7 @@ const ListControls = ({
             {option}
           </p>
         ))}
-      </ListOptionsContainer>
+      </ListOptionsContainer> */}
 
       <TextInput
         onChange={(term) => handleSearchTermChange(term)}
