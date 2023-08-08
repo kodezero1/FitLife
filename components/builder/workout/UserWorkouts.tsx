@@ -43,7 +43,7 @@ const UserWorkouts: React.FC<Props> = ({ setCustomWorkout, customWorkout, clearC
       <div className="tile">
         <TiledList
           showExpand={true}
-          title="My Workouts"
+          title="Saved Workouts"
           listName="created-workouts"
           items={created}
           onItemClick={(workout) => displayWorkout(workout)}
