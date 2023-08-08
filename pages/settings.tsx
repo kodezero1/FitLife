@@ -24,7 +24,7 @@ export default function Settings() {
         <>
           <TopTile />
 
-          <WeightTile />
+          {/* <WeightTile /> */}
 
           <LogoutBtn onClick={handleLogoutClick}>Sign Out</LogoutBtn>
         </>
