@@ -26,6 +26,8 @@ const BuilderSelectBar: React.FC<Props> = ({ builderType, setBuilderType }) => {
 export default BuilderSelectBar;
 
 const Bar = styled.div`
+  display: none;
+  
   position: sticky;
   top: 0;
   width: calc(100% + 1rem);
