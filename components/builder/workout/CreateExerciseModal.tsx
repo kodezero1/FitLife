@@ -23,7 +23,7 @@ const muscleGroups = [
   'cardio',
 ]
 
-const metrics: NewExercise['metric'][] = ['weight', 'time', 'distance']
+const metrics: NewExercise['metric'][] = ['weight', 'time']
 
 const InitialNewState: NewExercise = {
   name: '',
@@ -62,7 +62,7 @@ export default function CreateExerciseModal({ setShowModal, showModal }) {
   const handleMuscleWorkedChange = (e: React.ChangeEvent<HTMLInputElement>) =>
     setFormState({ ...formState, muscleWorked: e.target.value })
 
-  const handleMetricChange = (metric: 'weight' | 'time' | 'distance') => setFormState({ ...formState, metric: metric })
+  const handleMetricChange = (metric: 'weight' | 'time' ) => setFormState({ ...formState, metric: metric })
 
   return (
     <Modal isOpen={showModal} removeModal={() => setShowModal(false)}>
@@ -113,7 +113,7 @@ export default function CreateExerciseModal({ setShowModal, showModal }) {
           <div>
             <label htmlFor="metric">Metric:</label>
             <div className="metric-select">
-              {metrics.map((metric: 'weight' | 'time' | 'distance') => (
+              {metrics.map((metric: 'weight' | 'time') => (
                 <button
                   type="button"
                   key={metric}
