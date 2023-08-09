@@ -1,8 +1,8 @@
 ---
 title: "Lift Club Guide"
-dateCreated: "December 4, 2021"
-lastUpdated: "December 4, 2021"
-authorUsername: "George"
+dateCreated: "July 28, 2023"
+lastUpdated: "July 30, 2023"
+authorUsername: "Oluwatomi"
 coverImg: "lift-club-guide/liftclub-main.webp"
 readTime: "5 min"
 summary: "The ultimate Lift Club guide. Every detail about lift club and ways to optimize your experience using it."
