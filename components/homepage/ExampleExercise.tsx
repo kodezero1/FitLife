@@ -45,7 +45,7 @@ const ExampleExercise = (props: Props) => {
       <div className="example-exercise-text-wrapper">
         <HomepageText>
           <div className="visible-text">
-            <h2 className="heading-gradient">The Focus</h2>
+            <h2 className="heading-gradient marg">The Focus</h2>
             <p>A workout log allows you to track individual exercises</p>
             <br />
             <p>
@@ -253,6 +253,12 @@ const Container = styled.section`
           left: 125px;
         }
       }
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .marg {
+      margin-top: 2px;
     }
   }
 
