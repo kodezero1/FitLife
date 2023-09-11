@@ -55,7 +55,7 @@ const TrainersTile: React.FC<Props> = ({ team, setTeam }) => {
                 {trainer.profileImgUrl ? (
                   <img src={trainer.profileImgUrl} alt={trainer.username} />
                 ) : (
-                  <Image src="/favicon.png" height="30" width="30" alt="Lift Club Logo" />
+                  <Image src="/favicon.png" height="30" width="30" alt="FitSync Logo" />
                 )}
 
                 <p className="username">{trainer.username}</p>
@@ -104,7 +104,7 @@ const TrainersTile: React.FC<Props> = ({ team, setTeam }) => {
                   {trainer.profileImgUrl ? (
                     <img src={trainer.profileImgUrl} alt={trainer.username} />
                   ) : (
-                    <Image src="/favicon.png" height="30" width="30" alt="Lift Club Logo" />
+                    <Image src="/favicon.png" height="30" width="30" alt="FitSync Logo" />
                   )}
 
                   <p>{trainer.username}</p>
