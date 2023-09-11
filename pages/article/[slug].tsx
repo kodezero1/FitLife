@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug)
   const content = await markdownToHtml(post.content || '')
 
-  const shortUserApi = `https://Fitness-sync.vercel.app/api/users/username?shortUser=${post.authorUsername}` || `http://localhost:3000/api/users/username?shortUser=${post.authorUsername}`
+  const shortUserApi = `https://Fitness-sync.vercel.app/api/users/username?shortUser=${post.authorUsername}`
   const res = await fetch(shortUserApi)
   const author: ShortUser = await res.json()
   post.authorImgUrl = author.profileImgUrl
