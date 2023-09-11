@@ -16,8 +16,8 @@ const HomeNav = () => {
       <div className="nav-inner">
         <div className="links-row">
           <Link href="/" className="logo-container">
-            <Image src="/favicon.png" alt="Lift Club Logo" width={25} height={25} />
-            <span>FitLife</span>
+            <Image src="/favicon.png" alt="FitSync Logo" width={25} height={25} />
+            <span>FitSync</span>
           </Link>
 
           <ul className="links">
