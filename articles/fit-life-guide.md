@@ -1,31 +1,31 @@
 ---
-title: "FitLife Guide"
+title: "FitSync Guide"
 dateCreated: "July 28, 2023"
 lastUpdated: "July 30, 2023"
 authorUsername: "George"
 coverImg: "lift-club-guide/liftclub-main.webp"
 readTime: "5 min"
-summary: "The ultimate FitLife guide. Every detail about FitLife and ways to optimize your experience using it."
+summary: "The ultimate FitSync guide. Every detail about FitSync and ways to optimize your experience using it."
 categories: "Guides"
 ---
 
 # Welcome!
  
-Welcome to the FitLife...
+Welcome to the FitSync...
 
 # Installation
 
-FitLife is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
+FitSync is a PWA, so installing it on your phone will allow you to use it as if it were a native application.
 
 ## iOS
 
-1. On Safari, navigate to [Fit-Life.vercel.app](https://Fit-Life.vercel.app)
+1. On Safari, navigate to [Fitsync.vercel.app](https://Fitness-sync.vercel.app)
 2. Click the "Share" button (box with up arrow at the bottom of the browser).
 3. In the opening pop-up, click "Add to Home Screen." Then, click "Add" in the upper right.
 
 ## Android
 
-1. Navigate to [FitLife.app](https://FitLife.app)
+1. Navigate to [FitSync.vercel.app](https://Fitness-sync.vercel.app)
 
 ### Brave / DuckDuckGo
 
@@ -51,7 +51,7 @@ FitLife is a PWA, so installing it on your phone will allow you to use it as if 
 1. Enter your Username and Password into their respective fields.
 2. Click the "Login" button.
 
-# Using FitLife
+# Using FitSync
 
 ## Log Page
 
@@ -65,13 +65,13 @@ If no workout was recorded, that day will be colored grey. If a workout was reco
 
 ### Quick Start: Log Page with No Recorded Workout
 
-If you have not recorded a workout for the day selected, you will see the Quick Start, where a variety of options are presented. At the top is the On the Fly workout, with the Team workout(s) below. These will be explored in more detail in the [On the Fly](#on-the-fly) and [Teams](#teams) pages.
+If you have not recorded a workout for the day selected, you will see the Quick Start, where a variety of options are presented. At the top is the Start workouts, with the Team workout(s) below. These will be explored in more detail in the [Start Workouts](#on-the-fly) and [Teams](#teams) pages.
 
 Below that are the "My Workouts" and "Saved Workouts" sections. These sections contain all of the pre-made workouts that you have created or saved, respectively.
 
 To start recording your workout for the day, click on anyone of the discussed workout buttons:
 
-- On the Fly
+- Start Workouts
 - Team
 - My Workouts
 - Saved Workouts
@@ -87,9 +87,9 @@ The Recording Page, below the Date Bar, will show the title of the workout, foll
 - the reps for each set of the exercise, which are adjustable
 - the weights for each set of the exercise, which are adjustable
 
-### On the Fly
+### Start Workouts
 
-Workouts are normally built on the Builder Page, but On the Fly is useful for creating spontaneous workouts. After clicking on it, you will be taken to a blank Recording Page. Here, you can add exercises as you like. Adding exercises On the Fly works almost exactly as the Builder Page, but these workouts will not be saved as a template in "My Workouts."
+Workouts are normally built on the Builder Page, but Start Workouts is useful for creating spontaneous workouts. After clicking on it, you will be taken to a blank Recording Page. Here, you can add exercises as you like. Adding exercises Start Workouts works almost exactly as the Builder Page, but these workouts will not be saved as a template in "My Workouts."
 
 ## Builder Page
 
@@ -117,7 +117,7 @@ You may also notice your previously created workouts listed at the bottom of the
 
 ### Routine Tab
 
-The routine tab works much like the Workout Tab, but with a different focus. In FitLife's terminology, a workout is comprised of exercises, and a routine is comprised of workouts. A routine is a set of workouts over a period of days, weeks, or months. The routine Builder will allow you to schedule your workouts so they will automatically appear in your [Quick Notifications](#quick-start).
+The routine tab works much like the Workout Tab, but with a different focus. In FitSync's terminology, a workout is comprised of exercises, and a routine is comprised of workouts. A routine is a set of workouts over a period of days, weeks, or months. The routine Builder will allow you to schedule your workouts so they will automatically appear in your [Quick Notifications](#quick-start).
 
 At the top, include a name for your Routine. The two buttons below allow you to save your routine, or clear it and start from scratch.
 
