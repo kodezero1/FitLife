@@ -33,7 +33,7 @@ const Articles: React.FC<Props> = ({ pageProps: { posts } }) => {
   return (
     <Container>
       <SeoHead
-        title={'Lift Club Articles'}
+        title={'FitSync Articles'}
         description="A collection of articles ranging from nutrition to mindset to lifting technique."
       />
 
