@@ -62,7 +62,7 @@ const UsersResults = ({ searchInput, limit }) => {
                       {profileImgUrl ? (
                         <img src={profileImgUrl} alt={username} />
                       ) : (
-                        <Image src="/favicon.png" height="30" width="30" alt="Lift Club Logo" />
+                        <Image src="/favicon.png" height="30" width="30" alt="FitSync Logo" />
                       )}
 
                       <p>{username}</p>
@@ -88,7 +88,7 @@ const UsersResults = ({ searchInput, limit }) => {
                     {profileImgUrl ? (
                       <img src={profileImgUrl} alt={username} />
                     ) : (
-                      <Image src="/favicon.png" height="30" width="30" alt="Lift Club Logo" />
+                      <Image src="/favicon.png" height="30" width="30" alt="FitSync Logo" />
                     )}
 
                     <p>{username}</p>
