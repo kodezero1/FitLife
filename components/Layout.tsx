@@ -29,7 +29,7 @@ interface Props {
   title?: string
 }
 
-const Layout: React.FC<Props> = ({ title = 'FitLife', children }) => {
+const Layout: React.FC<Props> = ({ title = 'FitSync', children }) => {
   const router = useRouter()
   const dispatch = useUserDispatch()
   const { user, platform, isUsingPWA, isSignedIn } = useUserState()
