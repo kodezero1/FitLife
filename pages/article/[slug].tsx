@@ -17,7 +17,7 @@ export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug)
   const content = await markdownToHtml(post.content || '')
 
-  const shortUserApi = `https://liftclub.app/api/users/username?shortUser=${post.authorUsername}`
+  const shortUserApi = `https://Fitness-sync.vercel.app/api/users/username?shortUser=${post.authorUsername}` || `http://localhost:3000/api/users/username?shortUser=${post.authorUsername}`
   const res = await fetch(shortUserApi)
   const author: ShortUser = await res.json()
   post.authorImgUrl = author.profileImgUrl
@@ -44,12 +44,12 @@ const ArticleSlug: React.FC<Props> = ({
   return (
     <ArticleStyle>
       <SeoHead
-        title={`${title} - Lift Club`}
+        title={`${title} - FitSync`}
         description={summary || ''}
         openGraphProto={{
-          currentURL: 'https://liftclub.app' + router.asPath,
+          currentURL: 'https://Fitness-sync.vercel.app' + router.asPath,
           previewImage: '/article-images/' + coverImg,
-          siteName: 'Lift Club',
+          siteName: 'FitSync',
           pageTitle: title,
           description: summary || '',
         }}
