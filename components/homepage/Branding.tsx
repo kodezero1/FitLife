@@ -11,7 +11,7 @@ const Branding: React.FC = () => {
         <Image src="/favicon.png" height="100" width="100" alt="Lift Club Logo" priority />
       </div>
 
-      <h1 className="heading-gradient">FitLife</h1>
+      <h1 className="heading-gradient">FitSync</h1>
     </Brand>
   );
 };
