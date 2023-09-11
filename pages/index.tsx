@@ -48,29 +48,29 @@ const Home: NextPage = () => {
   const AppScreeshots = [
     {
       src: theme.type === 'dark' ? quickstart_dark : quickstart_light,
-      alt: 'FitLife quick start page',
+      alt: 'FitSync quick start page',
       priority: true,
     },
     {
       src: theme.type === 'dark' ? logitem_dark : logitem_light,
-      alt: 'FitLife individual log item',
+      alt: 'FitSync individual log item',
       priority: true,
     },
     {
       src: theme.type === 'dark' ? exercisechart_dark : exercisechart_light,
-      alt: 'FitLife exercise chart',
+      alt: 'FitSync exercise chart',
     },
     {
       src: theme.type === 'dark' ? exerciseList_dark : exerciselist_light,
-      alt: 'FitLife exercist list',
+      alt: 'FitSync exercist list',
     },
     {
       src: theme.type === 'dark' ? feed_dark : feed_light,
-      alt: 'FitLife finder page',
+      alt: 'FitSync finder page',
     },
     {
       src: theme.type === 'dark' ? profile_dark : profile_light,
-      alt: 'FitLife profile page',
+      alt: 'FitSync profile page',
     },
   ]
 
@@ -146,7 +146,7 @@ const Home: NextPage = () => {
           <GalaxyStars />
 
           <HomepageText className="hero-text">
-            <h1 className="heading-gradient">FitLife</h1>
+            <h1 className="heading-gradient">FitSync</h1>
             <p className="large-text">The best fitness app on the web</p>
             <br />
             <p>Access dozens of pre-made exercises, visualize your progress, share workouts, form routines and more</p>
@@ -158,7 +158,7 @@ const Home: NextPage = () => {
           </HomepageText>
 
           <SliderWrapper>
-            <h1 className="heading-gradient">FitLife</h1>
+            <h1 className="heading-gradient">FitSync</h1>
 
             <div ref={imageSliderRef} className="keen-slider">
               {AppScreeshots.map((image, i) => (
@@ -213,11 +213,11 @@ const Home: NextPage = () => {
               want to sell you some breakthrough workout made by the latest influencer.
             </p>
             <p>
-              FitLife isn&apos;t about all that nonsense. It&apos;s about pushing your body, following your own
+              FitSync isn&apos;t about all that nonsense. It&apos;s about pushing your body, following your own
               intuition, and committing to bettering your life one rep at a time.
             </p>
             <p>
-              There are no dieting shortcuts and no hacks to 6-pack abs. FitLife merely provides a space to discover,
+              There are no dieting shortcuts and no hacks to 6-pack abs. FitSync merely provides a space to discover,
               create, track, and share your fitness journey quicker and sleeker than any other app.
             </p>
           </div>
@@ -826,44 +826,44 @@ const Motivation = styled.section`
 
 const Testimonials = [
   {
-    quote: 'FitLife is more than just an app - it is a way of life.',
+    quote: 'FitSync is more than just an app - it is a way of life.',
     image: {
       src: '/assets/vince_gironda.webp',
       height: 20,
       width: 20,
       alt: 'Default alt text',
     },
-    name: 'Christian, FitLife creator',
+    name: 'Sam, FitSync creator',
   },
   {
-    quote: 'Before FitLife, I had a physique like Belle. Now I look like Gaston.',
+    quote: 'Before FitSync, I had a physique like Belle. Now I look like Gaston.',
     image: {
       src: '/assets/vince_gironda.webp',
       height: 20,
       width: 20,
       alt: 'Default alt text',
     },
-    name: 'George, FitLife member',
+    name: 'George, FitSync member',
   },
   {
-    quote: 'When life is weighing you down, FitLife taught me to do another rep.',
+    quote: 'When life is weighing you down, FitSync taught me to do another rep.',
     image: {
       src: '/assets/vince_gironda.webp',
       height: 20,
       width: 20,
       alt: 'Default alt text',
     },
-    name: 'Ryan, FitLife member',
+    name: 'Ryan, FitSync member',
   },
   {
-    quote: 'Joining FitLife was the best decision I have ever made!',
+    quote: 'Joining FitSync was the best decision I have ever made!',
     image: {
       src: '/assets/vince_gironda.webp',
       height: 20,
       width: 20,
       alt: 'Default alt text',
     },
-    name: 'A FitLife member',
+    name: 'A FitSync member',
   },
   {
     quote: 'The greatest feeling you can get in the gym... is the pump.',
@@ -876,13 +876,13 @@ const Testimonials = [
     name: 'Arnold Schwarzeneggar',
   },
   {
-    quote: 'FitLife makes working out so simple and easy. Now, I just focus on lifting, and it does the rest!',
+    quote: 'FitSync makes working out so simple and easy. Now, I just focus on lifting, and it does the rest!',
     image: {
       src: '/assets/vince_gironda.webp',
       height: 20,
       width: 20,
       alt: 'Default alt text',
     },
-    name: 'George, FitLife member',
+    name: 'George, FitSync member',
   },
 ]
