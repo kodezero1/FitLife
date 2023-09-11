@@ -27,10 +27,10 @@ const DemoWelcome = ({}: Props) => {
           ✕
         </button>
 
-        <h3 className="title">Welcome to Lift Club!</h3>
+        <h3 className="title">Welcome to FitSync!</h3>
 
         <p>
-          Thanks for taking the time to check out Lift Club! In this demo, you have access to all
+          Thanks for taking the time to check out FitSync! In this demo, you have access to all
           pages and features, but none of your progress or changes will be saved.
           <br />
           <br />
@@ -44,11 +44,11 @@ const DemoWelcome = ({}: Props) => {
           Sincerely,
           <Image
             src={Signature}
-            alt="Christian Anagnostou's Signature"
+            alt="Samuel Adeoluwa's Signature"
             height={60}
             className="signature"
           />
-          <span className="small-text">Lift Club Founder</span>
+          <span className="small-text">FitSync Founder</span>
         </p>
       </Container>
     </Modal>
