@@ -96,7 +96,7 @@ const CreateAccForm = ({ checkoutSession, user, pageErrorMessage, freeAccountEma
     return (
       <CreateContainer>
         <div className="temp-wrap">
-          <h2>Interested in joining Lift Club?</h2>
+          <h2>Interested in joining FitSync?</h2>
           <Link href="/membership">See Membership Options</Link>
         </div>
       </CreateContainer>
